@@ -9,7 +9,6 @@ public class BadTest {
 
     @Test
     public void meant_to_fail() throws Exception {
-        
-	return true;
+	assertEquals(1, 1);
     }
 }
